@@ -1,0 +1,286 @@
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+###################################################
+# Mr. F3eLL Tamvan
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo  $red"[#]> (Ctrl + C ) Detected, 
+Trying To Exit ... "
+sleep 1
+echo ""
+echo  $yellow"[#]> Thank You For Using My 
+Tools ... "
+sleep 1
+echo ""
+echo  $white"[#]> BlackHat Hacker Indonesia Was 
+Here ... "
+read enter
+exit
+}
+=================================================
+echo $white"Author : MR.F3eLL"
+echo $white"Team : BlackHat Hacker Indonesia"
+echo $white"Thanks To : Mr. CL4Y"
+echo $white"Thanks To : Mr. Eror | Mr. 5ton3 | Mr. SocrchID | Mr. Colt |Mr. JackX|Its_InyourIts|All Member Black Hat Hacker Indonesia "
+echo $white"thanks To : 2Easy 4Hack Team" 
+echo $white"thanks To : Devil Cyber Team"
+echo $white"thanks To : Blackhat Hacker 
+Indonesia"
+echo $white"thanks To : Banyumas Cyber Team"
+echo $white"thanks To : Sora Cyber Team"
+echo $white"thanks To: W3LL Squad Offical"
+echo $white"thanks to: Jakarta Cyber Army"
+=================================================
+echo  $yellow" 01) Red Hawk"
+echo  $yellow" 02) D-Tect"
+echo  $yellow" 03) Top Up Vocher Cash Point Blank"
+echo  $yellow" 04) Top Up Ilegal PUBG"
+echo  $yellow" 05) Webdav"
+echo  $yellow" 06) Metasploit"
+echo  $yellow" 07) Pulsa Gratis"
+echo  $yellow" 08) Ubuntu"
+echo  $yellow" 09) Sadap WA"
+echo  $yellow" 10) viSQL "
+echo  $yellow" 11) multi-brute-webdav "
+echo  $yellow" 12) Bajinganv6 "
+echo  $yellow" 13) Tools RCT"
+echo  $yellow" 14)  cc fresh Amazon "
+echo  $red" 15) Exit "
+echo  $white""
+read -p "[Root@Mr.F3eLL]> " bro;
+
+if [ $bro = 1 ] || [ $bro = 01 ]
+then
+clear
+echo  $red" Installing Red Hawk "
+sleep 1
+apt update && apt upgrade
+apt install php
+apt install git
+git clone 
+https://github.com/Tuhinshubhra/RED_HAWK
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 2 ] || [ $bro = 02 ]
+then
+clear
+echo  $red" Installing D-Tect "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python2
+git clone 
+https://github.com/shawarkhanethicalhacker/D-TECT
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 3 ] || [ $bro = 03 ]
+then
+clear
+echo  $red" TOP UP Voucher Point Blank Ilegal"
+sleep 1
+echo  $white " Voucher Cash Point Blank 1200: 15796519503
+Voucher Cash Point Blank 2400 :945651234
+Voucher Cash Point Blank 8400 : 592130746246
+Vocher cash Point Blank 12000 : 27158490456
+Vocher Cash Poin Blank 16000 : 37971250745
+Buruan Di Ambil Bro Ke Buru Di Ambil Orang ^_^"
+echo  $red" Makasi Telah Menggunakan Tools Kami ^_^"
+exit
+fi
+
+if [ $bro = 4 ] || [ $bro = 04 ]
+then
+clear
+echo  $red" TOP UP ILEGAL PUBG"
+sleep 1
+echo  #white" No Akses Root"
+echo  $red" Gk Ada Akses Root Mending Buang aja HP Lu Gblg"
+exit
+fi
+
+if [ $bro = 5 ] || [ $bro = 05 ]
+then
+clear
+echo  $red" Installing Webdav "
+sleep 1
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna 
+requests
+apt install openssl curl
+pkg install libcurl
+mkdir webdav
+cd ~/webdav
+wget https://pastebin.com/raw/HnVyQPtR -O 
+webdav.py
+chmod 777 webdav.py
+cd ~/
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 06 ] || [ $bro = 6 ]
+then
+clear
+echo  $red" Installing Metasploit "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+wget
+https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 07 ] || [ $bro = 7 ]
+then
+clear
+echo  $Blue" PULSA GRATIS "
+sleep 1
+echo  $white" No Akses Root"
+echo  $red" Gk Ada Akses Root Mending Buang aja HP Lu Gblg"
+exit
+fi
+
+if [ $bro = 08 ] || [ $bro = 8 ]
+then
+clear
+echo  $red" Installing Ubuntu "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+apt install proot
+git clone 
+https://github.com/Neo-Oli/termux-ubuntu.git
+cd ~/termux-ubuntu
+chmod +x ubuntu.sh
+sh ubuntu.sh
+echo " Fix network please wait "
+sleep 1
+echo "nameserver 8.8.8.8" 
+>/data/data/com.termux/files/home/termux-ubuntu/ubuntu-fs/etc/$
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 09 ] || [ $bro = 9 ]
+then
+clear
+echo  $red" Installing Youtube DL "
+sleep 1
+apt update && apt upgrade
+apt install python
+pip3 install mps_youtube
+pip3 install youtube_dl
+apt install mpv
+echo " Untuk menjalankannya ketik "mpsyt" 
+tanpa tanda petik "
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+clear
+echo  $red" Installing viSQL "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python2
+git clone 
+https://github.com/blackvkng/viSQL.git
+cd ~/viSQL
+chmod 777 viSQL.py
+cd ~/
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 11 ] || [ $bro = 11 ]
+then
+clear
+echo  $red" Installing Multi-Brute-Webdav "
+apt update && apt upgrade
+pkg install toilet
+pkg install sh
+pkg install git
+git clone 
+https://github.com/INYOURS3RV3R/Multi-Brute-Webdav
+cd ~/Multi-Brute-Webdav
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 12 ] || [ $bro = 12 ] 
+then
+clear
+echo  $red"installing bajinganv6"
+pkg install php
+pkg install figlet
+pkg install python2
+pip2 install requests
+pip2 install termcolor
+git clone 
+https://github.com/DarknessCyberTeam/BAJINGANv6.git
+cd ~/BAJINGANv6
+echo  $red" T E R I N S T A L L "
+exit 
+fi
+
+if [ $bro = 13 ] || [ $bro = 13 ]
+then
+clear
+echo  $red"installing tools RCT"
+apt update && apt upgrade
+pkg install git
+git clone https://github.com/RabCT/rct
+cd ~/rct
+chmod +x rct
+echo  $red" T E R I N S T A L L "
+exit
+fi
+
+if [ $bro = 14 ] || [ $bro = 14 ]
+then
+clear
+echo  $red" Gunakan Dengan Bijak ^_^ Tobat Bro Jangan Carding Terus"
+sleep 1
+echo  $white" Name : Ardi |Number Card:129459734683 |Name:Muh | Number card:129826474802|Name:Riski|Number Card:1245624887460|Name :Tani|Number Card :12654258480464"
+echo  $red" Gunakan Dengan Bijak Makasi Telah Menggunakan Tools Kami ^_^"
+exit
+fi
+
+if [ $bro = 15 ] || [ $bro = 15 ]
+then
+echo " Thanks To BLACKHAT HACKER INDONESIA"
+sleep 1
+echo " MR.F3eLL Was Here "
+sleep 1
+echo " Fuck You "
+sleep 1
+echo " MDFK "
+sleep 1
+echo " BITCH "
+sleep 1
+echo " Script Kiddie "
+sleep 1
+exit
+fi
